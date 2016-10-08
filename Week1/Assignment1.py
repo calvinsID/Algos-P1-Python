@@ -57,20 +57,3 @@ def count_split_inversions(left, right, inversions):
 lon = get_list()
 print count_inversions(lon, 0)[1]
 
-
-# def crappy_inversions(lon):
-#     inversions = 0
-#     for i in range(0, len(lon)):
-#         for j in range(i + 1, len(lon)):
-#             if lon[i] > lon[j]:
-#                 inversions += 1
-#     return inversions
-#
-#
-# test_lon = [1, 3, 5, 4, 2, ]
-# if crappy_inversions(test_lon) == count_inversions(test_lon, 0)[1]:
-#     print 'YES'
-# else:
-#     print 'NO'
-#     print crappy_inversions(test_lon)
-#     print count_inversions(test_lon, 0)[1]

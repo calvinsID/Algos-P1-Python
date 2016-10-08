@@ -16,7 +16,7 @@ def merge_sort(unsorted_list):
         mid = int(len(unsorted_list)/2)
         left = merge_sort(unsorted_list[:mid])
         right = merge_sort(unsorted_list[mid:])
-        merge(left, right)
+        return merge(left, right)
 
 
 def merge(left_list, right_list):

@@ -10,7 +10,7 @@ def insertion(unsorted_arr):
     :return: Sorted array
     """
 
-    for index in range(len(unsorted_arr)) :
+    for index in range(len(unsorted_arr)):
         insert_val = unsorted_arr[index]
         posn = index
 
