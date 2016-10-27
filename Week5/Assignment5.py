@@ -46,7 +46,7 @@ def read_input():
             for item in line[1:]:
                 pair = tuple(map(int, item.split(',')))
                 graph[index].append(pair)
-
+    print graph
     return graph
 
 
